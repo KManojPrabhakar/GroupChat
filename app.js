@@ -15,7 +15,6 @@ const morgan = require('morgan');
 var nodemailer = require("nodemailer");
 
 
-
 app.use(morgan('dev'));
 
 app.use(bodyParser.json());
